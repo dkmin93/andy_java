@@ -1,0 +1,11 @@
+package day02;
+
+public class CastingEx02 {
+	public static void main(String[] args) {
+		
+		int i = 65;
+		char c = (char)i;
+		short s = (short)i;
+		
+	}
+}

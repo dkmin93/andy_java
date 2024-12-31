@@ -1,0 +1,10 @@
+package day02;
+
+public class DataTypeEx02 {
+	public static void main(String[] args) {
+		
+		//단일문자 저장하는 타입 char
+		char c1 = 'AB'
+		
+	}
+}

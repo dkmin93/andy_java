@@ -1,0 +1,19 @@
+package quiz01;
+
+public class SelfStudy01 {
+	public static void main(String[] args) {
+		
+		// 90점 이상 A, 80점 이상 B, 70점 이상 C, 세 경우 다 아닐경우 F, 성적 출력
+		
+		int score = (int)(Math.random() * 101);
+				System.out.println("이번 기말 최종점수는 " + score + "점");
+				
+		String grade = (score >= 90) ? "A" :
+					(score >= 80) ? "B" :
+					(score >= 70) ? "C" : "F";
+		
+				System.out.println("기말 성적은 " + grade + "입니다.");
+		
+	}
+
+}
