@@ -1,0 +1,16 @@
+package day10.final_;
+
+public class Person {
+	
+	//final이 변수 앞에 붙으면 반드시 초기값을 지정해줘야만 한다
+	public final String nation = "대한민국"; //국적
+	public final String ssn; //주민번호
+	public final String name; //이름
+
+	public Person(String name, String ssn) {
+		this.name = name;
+		this.ssn = ssn;
+		
+	}
+	
+}

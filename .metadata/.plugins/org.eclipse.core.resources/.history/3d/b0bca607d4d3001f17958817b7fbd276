@@ -1,0 +1,14 @@
+package quiz13;
+
+public class SiegeTank extends Unit {
+
+	int attack;
+
+	SiegeTank() {
+		hp = 150;
+		armor = 2;
+		attack = 30;
+
+	}
+
+}

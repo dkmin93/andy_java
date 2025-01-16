@@ -1,0 +1,22 @@
+package day09.static_.method;
+
+public class Count {
+	
+	public int a;
+	public static int b;
+	
+	//일반메서드에서는 일반변수 정적변수(static변수) 둘다 사용가능
+	public int method01(); {
+		a = 10;
+		return ++b;
+	}
+	
+	//정적 메서드
+	public static int method02(); {
+		a = 10;
+		
+	}
+
+	
+	
+}

@@ -1,0 +1,13 @@
+package quiz11.review;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Warrior w1 = new Warrior("카단");
+		Warrior w2 = new Warrior("카멘");
+		w1.Smash(w2);
+		
+	}
+	
+}

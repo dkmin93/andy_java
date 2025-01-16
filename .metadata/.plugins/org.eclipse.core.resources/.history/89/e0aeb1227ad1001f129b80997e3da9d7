@@ -1,0 +1,8 @@
+package quiz05;
+
+public class Calculator {
+	
+	int result;
+	double pi;
+
+}

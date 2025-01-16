@@ -1,0 +1,13 @@
+package day08.encap.good;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		MyData me = new MyData();
+		
+		
+		
+	}
+
+}

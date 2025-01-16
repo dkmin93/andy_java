@@ -1,0 +1,16 @@
+package day08.encap.good;
+
+public class MainClass2 {
+	
+	public static void main(String[] args) {
+		
+		//객체를 담는 배열
+		Member[] arr = new Member[2];
+		
+		
+		
+		
+		
+	}
+
+}

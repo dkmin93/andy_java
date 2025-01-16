@@ -1,0 +1,10 @@
+package day08.this_basic1;
+
+public class Child extends Parent {
+	
+	//아무것도 안적어도 super는 자동으로 생략된다
+	Child() {
+		super();
+	}
+	
+}

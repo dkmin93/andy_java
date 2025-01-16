@@ -1,0 +1,24 @@
+package quiz06sol;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MyCart extends Cart{
+
+	MyCart(int m) {
+		money = m;
+		tv = 300;
+		com = 400;
+		radio = 500;
+	}
+	
+	void buy(String product) {
+		
+	}
+	
+
+
+
+
+
+}

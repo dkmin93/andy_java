@@ -1,0 +1,14 @@
+package quiz12;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Circle c = new Circle("귀여운원", 10);
+		
+		
+		
+		
+	}
+
+}

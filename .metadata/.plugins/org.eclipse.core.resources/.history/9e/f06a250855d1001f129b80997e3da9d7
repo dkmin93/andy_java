@@ -1,0 +1,10 @@
+package day07.override.basic;
+
+public class Child extends Parent {
+
+	//오버라이딩
+	void method02() {
+		
+	}
+	
+}

@@ -1,0 +1,29 @@
+package quiz11;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Warrior w1 = new Warrior("주먹펴고일어서");
+		w1.info();
+		w1.Smash(w1); //플레이어 생성자 만들기 
+		
+		Warrior w2 = new Warrior("돼지와함께춤을");
+		w1.info();
+		
+		
+		Warrior w3 = new Warrior("만지");
+		w1.info();
+		
+		Sorceress s1 = new Sorceress("하인즈");
+		s1.info();
+		s1.blizzard(null);
+		 
+		
+		Player[] target = {w1, w2, w3}; // 블리자드 피해를 입는 유저 배열
+		
+	}
+	
+}

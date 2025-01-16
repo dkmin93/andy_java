@@ -1,0 +1,30 @@
+package quiz02;
+
+public class Tv {
+	
+	String brand;
+	int number;
+	boolean onoff;
+	
+	Tv() {
+		brand = "LG";
+		number = 13;
+		onoff = true;
+	}
+	
+	void info() {
+		System.out.println("===TV 정보===");
+		System.out.println("회사명:" + brand);
+		System.out.println("채널번호:" + number);
+		System.out.println("전원:" + onoff);
+	}
+
+	int changeChannel(int tNumber) {
+		number = tNumber;
+		return number;
+	}
+	
+	void power() {
+		onoff = true;
+	}
+}

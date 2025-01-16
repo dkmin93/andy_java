@@ -1,0 +1,18 @@
+package day09.poly.basic2;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		//다형성이라는 개념이 없다면?
+		Student s1 = new Student("홍길동", 20, "123");
+		Student s2 = new Student("박찬호", 30, "456");
+		Student s3 = new Student("손흥민", 40, "789");
+		
+		s1.info();
+		
+		
+		
+	}
+
+}

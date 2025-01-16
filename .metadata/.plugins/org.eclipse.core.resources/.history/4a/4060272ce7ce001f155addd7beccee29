@@ -1,0 +1,21 @@
+package baekjoon04;
+
+import java.util.Scanner;
+
+public class Quiz05 { //공넣기 , 질문하기
+	
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int n = scan.nextInt(); // 바구니의 갯수 입력받음
+		int m = scan.nextInt(); // 공을 넣는 횟수 입력받음
+		
+		for(int i = 1; i <= m; i++) {
+			scan.nextInt();
+		}
+		
+		
+	}
+
+}

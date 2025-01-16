@@ -1,0 +1,37 @@
+package quiz12;
+
+public abstract class Shape {
+
+	public String name;
+	public double radius;
+	public double width;
+	public double length;
+	
+	
+	public Shape(String name) {
+		this.name = name;
+	}
+	
+	public Shape(String name, double radius) {
+		this.name = name;
+		this.radius = radius;
+	}
+	
+	public Shape(String name, double width, double length) {
+		this.name = name;
+		this.width = width;
+		this.length = length;
+		
+	}
+	
+	//오버라이딩을 강제화 한다면 추상메서드로 선언
+	public abstract double getArea();
+	
+	//오버라이딩을 강제화 하지않는다면 일반메서드로 선언
+	public String getName() {
+		return "도형이름" + name;
+	}
+	
+	
+	
+}

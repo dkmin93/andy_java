@@ -1,0 +1,12 @@
+package quiz05;
+
+public class Computer extends Calculator {
+
+	double circle(int r) {
+		double result;
+		System.out.println("입력한 값을 반지름으로 하는 원의 넓이를 구합니다");
+		result = (pi * r * r);
+		return result;
+	}
+	
+}

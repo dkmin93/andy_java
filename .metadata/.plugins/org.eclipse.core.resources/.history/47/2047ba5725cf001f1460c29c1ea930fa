@@ -1,0 +1,23 @@
+package day05;
+
+public class MethodEx07 {
+
+	public static void main(String[] args) {
+
+		//call by value vs call by reference
+		
+		int a = 1;
+		value(a);
+
+	} // 메인함수 끝
+
+	//call by value
+	static void value(int a) {
+		a= 100;
+	}
+
+	static void reference() {
+
+	}
+
+} // 클래스 끝

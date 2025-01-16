@@ -1,0 +1,8 @@
+package quiz13;
+
+public class MainClass {
+
+	Marine m1 = new Marine();
+	
+	
+}

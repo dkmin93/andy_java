@@ -1,0 +1,8 @@
+package day10.final_.method;
+//final이 class 앞에 붙으면 상속이 불가능해진다
+public /*final*/ class Parent {
+	
+	public void method01() {}
+	public final void method02() {}
+
+}

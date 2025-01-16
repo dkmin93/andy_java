@@ -1,0 +1,11 @@
+package day05;
+
+public class MethodEx06 {
+	
+	public static void main(String[] args) {
+		
+		//Queue - FIFO(First In First Out)
+		
+	}
+
+}

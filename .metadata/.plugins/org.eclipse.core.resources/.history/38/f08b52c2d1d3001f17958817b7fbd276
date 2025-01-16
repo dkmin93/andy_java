@@ -1,0 +1,14 @@
+package quiz13;
+
+public class Unit {
+	
+	int x = 0;
+	int y = 0;
+	int hp;
+	int armor;
+	
+	void location() {
+		System.out.println("x:" + x + " y:"+ y);
+	}
+
+}

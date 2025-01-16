@@ -1,0 +1,15 @@
+package day05;
+
+public class MethodEx06 {
+	
+	public static void main(String[] args) {
+		
+		//Queue - FIFO(First In First Out) 롤 큐...
+		//offer - 뒤에서 추가
+		//poll - 앞에서 제거하고 반환
+		
+		
+		
+	}
+
+}

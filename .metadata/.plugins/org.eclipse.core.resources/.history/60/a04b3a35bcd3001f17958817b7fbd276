@@ -1,0 +1,31 @@
+package day10.abstract_.good;
+
+public class SeoulStore extends Store{
+
+	@Override
+	public void melon() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void orange() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void grape() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void apple() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

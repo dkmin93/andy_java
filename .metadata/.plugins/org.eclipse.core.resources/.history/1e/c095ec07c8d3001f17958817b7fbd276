@@ -1,0 +1,26 @@
+package day10.abstract_.good;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		SeoulStore ss = new SeoulStore();
+		System.out.println(ss.storeName);
+		ss.apple();
+		ss.grape();
+		ss.melon();
+		ss.orange();
+		ss.mango();
+		
+		BusanStore bs = new BusanStore();
+		
+		bs.apple();
+		bs.grape();
+		bs.melon();
+		bs.orange();
+		
+		
+		
+	}
+
+}

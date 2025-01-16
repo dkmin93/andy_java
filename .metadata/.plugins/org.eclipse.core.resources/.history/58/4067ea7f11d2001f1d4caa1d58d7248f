@@ -1,0 +1,32 @@
+package quiz06sol;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MyCart extends Cart{
+
+	MyCart(int m) {
+		money = m;
+		tv = 300;
+		com = 400;
+		radio = 500;
+	}
+	
+	void buy(String product) {
+		if(money <300) {
+			System.out.println("[금액 부족]");
+			return;
+		}
+		////문자의 비교는 equals, 맨앞에 ! 붙여서 부정의 표현
+		if(!(product.equals("tv") || product.equals("com") || product.equals("radio"))) { 
+			System.out.println("[상품 없음]");
+			return;
+		}
+	}
+	
+
+
+
+
+
+}

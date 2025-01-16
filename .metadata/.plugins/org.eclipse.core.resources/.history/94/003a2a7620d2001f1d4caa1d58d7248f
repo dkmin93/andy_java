@@ -1,0 +1,20 @@
+package day08.super_basic2;
+
+public class Student extends Person {
+
+	String studentId;
+	
+	Student(String name, int age, String studentId) {
+		this.name = name;
+		this.age = age;
+		this.studentId = studentId;
+	}
+	
+	@Override //어노테이션 - 특정 기능을 표현, 지워도 무관
+	String info() {
+		// TODO Auto-generated method stub // 작성하고 싶은 내용을 적을 것
+		return "이름:" + name + ", 나이:" + age + ", 학번:" +studentId;
+	}
+	
+	
+}

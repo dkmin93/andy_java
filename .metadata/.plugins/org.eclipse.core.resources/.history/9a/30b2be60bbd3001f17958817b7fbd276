@@ -1,0 +1,17 @@
+package day10.abstract_.good;
+
+public class Store {
+	
+	/*
+	 * 1.메서드에 abstract를 붙이면 추상 메서드가 된다.
+	 * 추상 메서드는 {}가 없는(괄호 속이 비어 있는) 메서드 선언이다
+	 * 
+	 * 
+	 * 
+	 */
+
+	public abstract void melon();
+	
+	
+	
+}

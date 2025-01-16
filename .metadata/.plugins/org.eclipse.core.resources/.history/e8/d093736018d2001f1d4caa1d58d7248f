@@ -1,0 +1,22 @@
+package day08.this_basic;
+
+public class Person {
+	
+	//공통클래스(부모클래스)
+	String name;
+	int age;
+	String address;
+	String phone;
+	String 주민번호;
+	
+	Person(String name, int age, String) {
+		this.name = name;
+		
+	}
+	
+	
+	String info() {
+		return "이름:" + name + ", 나이:" + age;
+	}
+
+}

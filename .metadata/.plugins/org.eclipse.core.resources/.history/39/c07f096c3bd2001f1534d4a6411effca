@@ -1,0 +1,20 @@
+package day08.modi.member.pac1;
+
+public class A {
+	
+	public A(int i) {}
+	A(String s) {}
+	private A(boolean b) {} // 밖에서 객체생성을 못하게 할때 생성자에 private를 붙인다
+	
+	///////////////////////////////////////
+	
+	int a;
+	int b;
+	int c;
+	
+	void method01() {}
+	void method02() {}
+	void method03() {}
+	
+	
+}

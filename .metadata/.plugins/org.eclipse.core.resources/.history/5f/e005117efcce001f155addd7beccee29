@@ -1,0 +1,22 @@
+package quiz02;
+
+public class TV {
+	
+	String brand;
+	int number;
+	boolean onoff;
+	
+	TV() {
+		brand = "LG";
+	}
+	
+	void info() {
+		System.out.println("===TV 정보===");
+		System.out.println("회사명:" + brand);
+		System.out.println("채널번호:" + number);
+		System.out.println("전원:" + onoff);
+		
+		
+	}
+
+}

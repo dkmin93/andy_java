@@ -1,0 +1,26 @@
+package quiz13;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Marine m1 = new Marine();
+		m1.StimPack();
+		m1.info();
+		m1.location();
+		m1.move(50, 220);
+		m1.location();
+		
+		SiegeTank t1 = new SiegeTank();
+		t1.changeMode();
+		t1.info();
+		
+		DropShip d1 = new DropShip();
+		d1.info();
+		d1.ride(m1);
+		
+	}
+
+	
+	
+}

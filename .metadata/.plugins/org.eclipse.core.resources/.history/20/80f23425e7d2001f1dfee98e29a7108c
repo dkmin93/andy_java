@@ -1,0 +1,14 @@
+package day08.encap.obj;
+
+public class Hotel {
+	
+	 private Chef chef; //멤버변수에 클래스타입, 배열도 올 수 있다
+	 
+	 //호텔이 생성될 때, chef를 같이 생성한다.
+	 public Hotel() {
+		 this.chef = new Chef();
+	 }
+
+	 //chef변수의 getter setter
+	 
+}

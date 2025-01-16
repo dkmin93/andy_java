@@ -1,0 +1,17 @@
+package quiz13;
+
+public class DropShip extends Unit {
+
+	DropShip() {
+		hp = 60;
+		armor = 1;
+		int space = 8;
+		//int[] space = new int[8];
+	}
+	
+	void ride(Unit u) {
+		System.out.println(u + "유닛을 수송칸에 태웁니다.");
+		if()
+	}
+	
+}

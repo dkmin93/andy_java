@@ -1,0 +1,12 @@
+package quiz11.review;
+
+public class Warrior extends Player {
+
+	//생성자 : 이름을 전달 받아서 hp는 1000 mp는 500으로 초기화
+	//강타 : 매개변수로 Player를 받는다. 스킬을 사용하면 나의 mp가 100소모. 마나가 부족하면 스킬사용불가
+	//타격당한 상대방은 hp가 100이 감소
+	
+	
+	
+
+}

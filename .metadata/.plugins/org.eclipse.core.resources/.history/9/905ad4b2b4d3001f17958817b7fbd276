@@ -1,0 +1,12 @@
+package day10.final_;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Person ko = new Person("고길동", "123123-1231234");
+		Person hong = new Person("홍길동", "234234-1231234");
+		
+	}
+
+}

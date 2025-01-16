@@ -1,0 +1,13 @@
+package baekjoon03;
+
+import java.util.Scanner;
+
+public class Quiz06 { //빠른 A+B 스캐너 사용안하기?
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

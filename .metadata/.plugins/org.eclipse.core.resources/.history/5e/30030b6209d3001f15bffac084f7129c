@@ -1,0 +1,5 @@
+package quiz11;
+
+public class Sorceress extends Player {
+
+}

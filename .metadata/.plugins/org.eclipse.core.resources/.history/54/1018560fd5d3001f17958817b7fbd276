@@ -1,0 +1,19 @@
+package quiz13;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Marine m1 = new Marine();
+		m1.StimPack();
+		m1.info();
+		
+		SiegeTank t1 = new SiegeTank();
+		t1.changeMode();
+		t1.info();
+		
+	}
+
+	
+	
+}

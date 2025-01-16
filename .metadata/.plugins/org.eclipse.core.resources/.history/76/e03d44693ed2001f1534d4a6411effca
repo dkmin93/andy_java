@@ -1,0 +1,9 @@
+package day08.modi.member.pac1;
+
+public class B {
+	
+	A a = new A(1); //public이니까 당연히 접근 가능
+	A a2 = new A("홍길동"); // 같은 패키지 안이니까 접근가능
+	A a3 = new A(true); //A는 private이므로 B에서는 접근 불가능
+	
+}

@@ -1,0 +1,12 @@
+package quiz11.review;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Warrior w1 = new Warrior("아란");
+		w1.info();
+		
+	}
+	
+}

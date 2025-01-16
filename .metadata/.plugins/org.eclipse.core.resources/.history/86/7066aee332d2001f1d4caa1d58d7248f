@@ -1,0 +1,12 @@
+package quiz08;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		SuperSonicAp ss = new SuperSonicAp("아시아나");
+		ss.fly();
+		System.out.println(ss.info());
+	}
+
+}

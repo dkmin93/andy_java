@@ -1,0 +1,15 @@
+package quiz13;
+
+public class DropShip extends Unit {
+
+	DropShip() {
+		hp = 60;
+		armor = 1;
+		int[] space = new int[8];
+	}
+	
+	void ride(Unit u) {
+		//if()
+	}
+	
+}

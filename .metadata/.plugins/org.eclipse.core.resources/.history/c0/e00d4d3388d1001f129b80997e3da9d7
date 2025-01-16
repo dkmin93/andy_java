@@ -1,0 +1,17 @@
+package quiz06;
+
+import java.util.Scanner;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		MyCart mc = new MyCart(300);
+		
+		//mc.buy(null);
+		//mc.add(null);
+		//mc.info();
+		
+	}
+
+}

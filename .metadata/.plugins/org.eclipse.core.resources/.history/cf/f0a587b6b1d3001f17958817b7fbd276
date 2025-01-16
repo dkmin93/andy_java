@@ -1,0 +1,15 @@
+package day09.static_.singleton;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		//new Singleton();
+		
+		Singleton.getInstance();
+		
+	}
+	
+	
+
+}

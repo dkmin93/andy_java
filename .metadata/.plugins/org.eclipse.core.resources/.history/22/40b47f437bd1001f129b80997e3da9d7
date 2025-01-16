@@ -1,0 +1,22 @@
+package quiz05;
+
+public class Calculator {
+	
+	int result;
+	double pi;
+	
+	void add(int a) {
+		System.out.println(result += a);
+	}
+	
+	void sub(int b) {
+		System.out.println(result -= b);
+		
+	}
+	
+	int circle(int r) {
+		result = (int)(pi * r * r);
+		return result;
+	}
+
+}

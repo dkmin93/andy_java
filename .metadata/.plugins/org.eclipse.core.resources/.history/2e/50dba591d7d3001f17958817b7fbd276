@@ -1,0 +1,29 @@
+package quiz13;
+
+public class Marine extends Unit {
+
+	int attack;
+	int weight;
+	
+	Marine() {
+		System.out.println("Uou wanna piece of me, boy?");
+		hp = 60;
+		armor = 0;
+		attack = 6;
+		weight = 1;
+	}
+	
+	void StimPack() {
+		System.out.println("Ah! Yeah!");
+		System.out.println("스팀팩을 사용합니다. hp가 10 감소하고 attack이 1 증가합니다.");
+		this.attack++;
+		this.hp -= 10;
+	}
+	
+	void info() {
+		System.out.println("hp:" + this.hp);
+		System.out.println("attack:" + this.attack);
+		System.out.println("armor:" + this.armor);
+	}
+	
+}

@@ -1,0 +1,9 @@
+package day07.inherit.good;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

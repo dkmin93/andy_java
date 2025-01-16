@@ -1,0 +1,17 @@
+package quiz10;
+
+import day08.encap.obj.Chef;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		//Computer com = new Computer(); 아래 방법과 동일
+		
+		Computer com = new Computer(new KeyBoard(), new Mouse(), new Monitor());
+
+		Monitor monitor = com.getMonitor();
+		monitor.info();
+	}
+
+}

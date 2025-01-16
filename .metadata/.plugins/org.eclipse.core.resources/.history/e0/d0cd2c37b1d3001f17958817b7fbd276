@@ -1,0 +1,7 @@
+package day09.static_.singleton;
+
+public class MainClass {
+	
+	new Singleton();
+
+}

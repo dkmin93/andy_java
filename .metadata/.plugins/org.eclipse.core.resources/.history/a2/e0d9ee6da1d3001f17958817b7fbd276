@@ -1,0 +1,26 @@
+package day09.static_.field;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Count c1 = new Count();
+		c1.a++;
+		c1.b++;
+		
+		System.out.println("a:" + c1.a);
+		System.out.println("b:" + c1.b);
+	
+		Count c2 = new Count();
+		c2.a++;
+		c2.b++;
+		System.out.println("a:" + c2.a);
+		System.out.println("b:" + c2.b);
+		
+	}
+	
+	
+	
+	
+
+}

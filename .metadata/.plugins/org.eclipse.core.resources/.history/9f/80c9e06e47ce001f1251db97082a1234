@@ -1,0 +1,11 @@
+package baekjoon03;
+
+public class Quiz09 { // 별찍기1
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

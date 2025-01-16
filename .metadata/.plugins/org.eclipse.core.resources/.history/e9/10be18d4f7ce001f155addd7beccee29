@@ -1,0 +1,11 @@
+package day06;
+
+public class PhoneMain {
+	
+	public static void main(String[] args) {
+		
+		Phone phone = new Phone(); // 생성자
+		phone.info();
+	}
+
+}

@@ -1,0 +1,7 @@
+package day07.inherit.good;
+
+public class Employee {
+
+	String department;
+	
+}

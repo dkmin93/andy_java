@@ -1,0 +1,19 @@
+package quiz13;
+
+public class Marine extends Unit {
+
+	int attack;
+	
+	Marine() {
+		hp = 60;
+		armor = 0;
+		attack = 6;
+		
+	}
+	
+	void StimPack() {
+		attack++;
+		hp -= 10;
+	}
+	
+}

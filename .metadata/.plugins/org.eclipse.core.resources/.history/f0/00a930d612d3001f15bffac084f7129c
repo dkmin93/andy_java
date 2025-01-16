@@ -1,0 +1,26 @@
+package quiz11;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Warrior w1 = new Warrior("주먹펴고일어서");
+		
+		Warrior w2 = new Warrior("아란");
+		
+		Sorceress s1 = new Sorceress("검은마법사");
+		
+		w1.powerStrike(s1);
+		
+		Player pw1 = w1;
+		Player pw2 = w2;
+		Player ps1 = s1;
+		
+		Player[] target = {pw1, pw2, ps2}; // 블리자드 피해를 입는 유저 배열
+		
+		// s2.blizzard(target[] target);
+		
+		유저들을 플레이어 항목으로 다형성 적용시키기
+	}
+	
+}

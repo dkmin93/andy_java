@@ -1,0 +1,30 @@
+package baekjoon03;
+
+import java.util.Scanner;
+
+public class Quiz04 { //영수증
+	
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int X = scan.nextInt(); //총 금액 입력
+		int N = scan.nextInt(); //물건의 종류 갯수 입력
+		int[] arr = new int[N];
+		int[] arr2 = new int[N];
+		
+		for(int a = 0; a < N; a++) {
+			
+			arr[a] = scan.nextInt();
+			arr2[a] = scan.nextInt();
+			
+	
+		}
+		
+//		if(X - 가격의총합 == 0) {
+//		System.out.println("Yes");
+//	} 	else {
+//		System.out.println("No");
+	}
+
+}

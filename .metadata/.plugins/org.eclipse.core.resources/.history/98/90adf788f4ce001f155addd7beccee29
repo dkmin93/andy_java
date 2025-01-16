@@ -1,0 +1,16 @@
+package day06;
+
+public class Phone {
+
+	String model;
+	int price;
+	String color;
+	
+	void info() {
+		System.out.println("===휴대폰 정보===");
+		System.out.println("모델:" + model);
+		System.out.println("가격:" + price);
+		System.out.println("색상:" + color);
+	}
+	
+}

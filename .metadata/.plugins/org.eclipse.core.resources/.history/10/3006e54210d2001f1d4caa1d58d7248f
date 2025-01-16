@@ -1,0 +1,7 @@
+package quiz06;
+
+public class MyCartsol extends Cart{
+
+	
+	
+}

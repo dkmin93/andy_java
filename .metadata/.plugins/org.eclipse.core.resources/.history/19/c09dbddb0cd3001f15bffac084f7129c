@@ -1,0 +1,13 @@
+package quiz11;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Warrior w1 = new Warrior("주먹펴고일어서");
+		w1.info();
+		w1.Smash(w1); //플레이어 생성자 만들기
+		
+	}
+	
+}

@@ -1,0 +1,5 @@
+package day07override.basic;
+
+public class Parent {
+
+}

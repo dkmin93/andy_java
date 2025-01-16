@@ -1,0 +1,23 @@
+package day09.poly.basic;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Child c = new Child();
+		c.method01(); //Parent에서 상속받은 1번 메서드
+		c.method02(); //Child에서 오버라이딩한 2번 메서드
+		c.method03(); //Child만의 3번 메서드
+		
+		System.out.println("================다형성 적용===================");
+		
+		Parent p = c; // c의 타입이 일시적으로 Child에서 Parent로 형변환 된 것
+		System.out.println("주소값:" + c);
+		System.out.println("주소값:" + p);
+		
+		p.method01();
+		p.method02();
+		
+	}
+
+}

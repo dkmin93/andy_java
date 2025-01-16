@@ -1,0 +1,26 @@
+package quiz05sol;
+
+public class Calculator {
+	
+	int result;
+	double pi = 3.14;
+	
+	void add(int a) {
+		result += a;
+		return result;
+	}
+	
+	void sub(int a) {
+		result -= a;
+		return result;
+		
+	}
+	
+	double circle(int a) {
+		double result;
+		System.out.println("입력한 값을 반지름으로 하는 원의 넓이를 구합니다");
+		result = (pi * r * r);
+		return result;
+	}
+
+}
