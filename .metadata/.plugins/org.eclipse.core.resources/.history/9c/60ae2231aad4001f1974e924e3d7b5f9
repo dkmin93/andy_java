@@ -18,7 +18,7 @@ public class MultiCatchEx01 {
 			System.out.println(x + y);
 			
 			//String str = null; //기타 예외
-			//str.charAt(0);
+			str.charAt(0);
 			
 			//예외의 종류별로 각기 다른 프로그램 처리를 할 수 있다
 			

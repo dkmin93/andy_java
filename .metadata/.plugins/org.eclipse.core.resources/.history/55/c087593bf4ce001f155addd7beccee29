@@ -1,9 +1,0 @@
-package day06;
-
-public class Phone {
-
-	String model;
-	int price;
-	String color;
-	
-}
