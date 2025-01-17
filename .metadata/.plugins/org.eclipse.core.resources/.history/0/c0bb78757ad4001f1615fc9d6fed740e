@@ -1,0 +1,5 @@
+package day10.inter.basic3;
+
+public interface Printed {
+
+}

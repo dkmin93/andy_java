@@ -9,6 +9,9 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.applet.Applet"/>
     <fullyQualifiedTypeName name="day01.SystemOut"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="day09.static_.singleton.Singleton"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.css.CSSStyleRule"/>
 </qualifiedTypeNameHistroy>

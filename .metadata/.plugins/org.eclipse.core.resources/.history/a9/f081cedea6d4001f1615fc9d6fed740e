@@ -1,0 +1,18 @@
+package day11.exception.trycatch;
+
+import java.util.Arrays;
+
+public class MultiCatchEx01 {
+	
+	public static void main(String[] args) {
+		
+		//main에 값을 주는 방법
+		//run탭 - run configuration - arguments탭 - ${string_prompt}
+		
+		String a = args[0];
+		String b = args[1];
+		
+		System.out.println(Arrays.toString(args));
+	}
+
+}

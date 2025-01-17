@@ -1,0 +1,22 @@
+package day10.inter.basic2;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Animal baduk = new Dog();
+		Animal shampoo = new Cat();
+		Animal hodol = new Tiger();
+		Animal[] arr = {baduk, shampoo, hodol};
+		
+		for(Animal a : arr) {
+			a.eat(); //Animal처럼 동작됨
+		}
+		
+		//펫 타입
+		IPet[] arr2 = new IPet[3];
+		
+		
+	}
+
+}

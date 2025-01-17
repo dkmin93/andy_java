@@ -1,0 +1,5 @@
+package quiz14;
+
+public interface Payment {
+
+}

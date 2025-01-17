@@ -1,9 +1,0 @@
-package baekjoon04;
-
-public class Quiz01 {//개수 세기
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

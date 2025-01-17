@@ -1,0 +1,5 @@
+package day10.inter.basic1;
+
+public interface Inter02 {
+
+}

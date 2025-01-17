@@ -1,0 +1,17 @@
+package quiz14;
+
+public class CreditCardPayment implements Payment {
+
+	
+	public void pay(int amount) {
+		
+		
+	}
+
+	
+	public boolean validatePaymentDetails(String details) {
+		
+		return false;
+	}
+
+}

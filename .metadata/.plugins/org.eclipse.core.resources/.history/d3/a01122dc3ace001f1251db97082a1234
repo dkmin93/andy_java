@@ -1,9 +1,0 @@
-package baekjoon03;
-
-public class Quiz06 { //영수증
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

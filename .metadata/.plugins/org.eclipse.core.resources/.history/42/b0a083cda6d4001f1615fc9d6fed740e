@@ -1,0 +1,14 @@
+package day11.exception.trycatch;
+
+public class MultiCatchEx01 {
+	
+	public static void main(String[] args) {
+		
+		//run탭 - run configuration - arguments탭 - ${string_prompt}
+		
+		String a = args[0];
+		String b = args[1];
+		
+	}
+
+}

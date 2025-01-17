@@ -1,0 +1,9 @@
+package day10.inter.basic2;
+
+public class Tiger extends Animal {
+
+	public void eat() {
+		
+	}
+
+}

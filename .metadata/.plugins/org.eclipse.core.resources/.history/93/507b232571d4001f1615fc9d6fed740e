@@ -1,0 +1,11 @@
+package day10.inter.basic2;
+
+public class GoldFish extends Fish {
+
+	@Override
+	public void swim() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

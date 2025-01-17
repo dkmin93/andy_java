@@ -1,0 +1,20 @@
+package day11.exception.trycatch;
+
+public class TryCatchEx02 {
+	
+	public static void main(String[] args) {
+		
+		String[] greeting = {"hrllo","안녕하세요","사요나라"};
+		
+		int i = 0;
+		while(i < 4) { //3번째 인덱스에서 에러
+			System.out.println(greeting[i]);
+			i++;
+		}
+		
+		System.out.println("프로그램 정상 종료");
+		
+		
+	}
+
+}

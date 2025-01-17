@@ -1,0 +1,13 @@
+package day10.inter.basic1;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Basic b = new Basic();
+		b.method01();
+		b.method02();
+		
+	}
+	
+}

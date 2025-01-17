@@ -1,0 +1,23 @@
+package selfstudy;
+
+import org.w3c.dom.css.CSSStyleRule;
+
+public class Mix {
+
+}
+
+class asdasd {             //aaaaa        bbbbb
+	public String solution(String str1, String str2) {
+		String answer = "";
+		
+		char[] arr1 = str1.toCharArray(); // a a a a a
+		char[] arr2 = str2.toCharArray(); // b b b b b
+		
+		for(int i = 0; i< 5; i++) {
+			answer = char[i];
+		}
+		
+
+		return answer;
+	}
+}
