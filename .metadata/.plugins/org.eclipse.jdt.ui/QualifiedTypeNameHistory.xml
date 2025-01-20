@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
     <fullyQualifiedTypeName name="day04.ArrayMatrix"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.applet.Applet"/>
     <fullyQualifiedTypeName name="day01.SystemOut"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
@@ -15,8 +14,11 @@
     <fullyQualifiedTypeName name="org.w3c.dom.css.CSSStyleRule"/>
     <fullyQualifiedTypeName name="day10.inter.basic3.Samsung"/>
     <fullyQualifiedTypeName name="quiz14.PayPalPayment"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="api.lang.system.SystemEx"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

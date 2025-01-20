@@ -1,7 +1,0 @@
-package day07.override.basic2;
-
-public class Employee extends Person {
-
-	String department;
-	
-}

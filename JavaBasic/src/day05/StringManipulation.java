@@ -53,6 +53,7 @@ public class StringManipulation {
 
 		String r2 = str.toUpperCase(); //전부 싹다 대문자로 변경
 		String r3 = str.toLowerCase(); //전부 싹다 소문자로 변경
+		str.to
 
 		System.out.println(r2);
 		System.out.println(r3);

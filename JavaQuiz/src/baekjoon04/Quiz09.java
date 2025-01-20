@@ -29,17 +29,26 @@ public class Quiz09 { // 바구니 뒤집기
 		// 세번째와 네번째 사이를 역순으로
 		// 첫번째와 네번째 사이를 역순으로 첫째와 넷째 
 		
-		for(int i = 1; i <= m; i++) { //m회에 걸쳐서 바꿀값들 입력 받음
+		//5 1 // 12345가 43215로 변환
+		for(int i = 1; i <= m; i++) { //x=1 y=4 1~4번의 순서를 역순으로 바꿔라
 			int x = scan.nextInt();
 			int y = scan.nextInt();
+			for(int j = x-1; j  ; j++) { // 인덱스 0123을 3210으로 바꾸기
+				arr[0] = arr[3];
+				arr[1] = arr[2];
+				arr[2] = arr[1];
+				arr[3] = arr[0];
+			}
+			
 			
 			
 			
 		}
 		
-		for(int i = 0; i < n; i++) {
+		for(int i = 0; i < n; i++) { //마지막값 출력
 			System.out.println(arr[i]);
 		}
+	
 		
 	}
 
